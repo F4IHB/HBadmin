@@ -9,3 +9,6 @@ HBadmin is a Graphical User Interface for editing HBlink config file.
 You will be able to :
 - Edit general settings  : Global, Logging, Aliases & Reports
 - Edit instances : Masters, Peers, OpenBridges and XLX Peers
+- Monitor (very light) your server : CPU & RAM usage, disk space
+
+![Preview of HBadmin](http://f4ihb.fr/data/medias/hbadmin-preview1.png "Preview of HBadmin")
