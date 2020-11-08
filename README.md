@@ -13,3 +13,21 @@ You will be able to :
 - Monitor (very light) your server : CPU & RAM usage, disk space
 
 ![Preview of HBadmin](http://f4ihb.fr/data/medias/hbadmin-preview1.png "Preview of HBadmin")
+
+
+## Installation guide
+
+```bash
+cd /opt
+git clone https://github.com/F4IHB/HBadmin.git 
+
+cd HBadmin
+
+cp config_SAMPLE.py config.py
+nano config.py
+
+cp /opt/HBadmin/hbadmin.service /lib/systemd/system/hbadmin.service
+
+systemctl enable hbadmin.service
+systemctl start hbadmin.service
+```
