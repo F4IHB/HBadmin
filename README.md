@@ -17,6 +17,8 @@ You will be able to :
 
 ## Installation guide
 
+November 8, 2020 : It's just a reminder.
+
 ```bash
 cd /opt
 git clone https://github.com/F4IHB/HBadmin.git 
